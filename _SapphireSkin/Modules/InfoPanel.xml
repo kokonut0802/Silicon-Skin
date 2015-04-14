@@ -157,7 +157,8 @@
         </Component>
         <Component name="Freecamera">
             <atlas>IconsAtlas</atlas>
-            <relativePosition>1803.0, -11.0</relativePosition>
+            <relativePosition aspect="16:9">1803.0, -11.0</relativePosition>
+            <relativePosition aspect="16:10">1613.0, -11.0</relativePosition>
             <normalBgSprite></normalBgSprite>
             <hoveredBgSprite></hoveredBgSprite>
             <focusedBgSprite></focusedBgSprite>

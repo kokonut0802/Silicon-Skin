@@ -24,7 +24,8 @@
     <Component name="Esc">
         <isVisible>true</isVisible>
         <size>64.0, 64.0</size>
-        <relativePosition>1850.0,11.0</relativePosition>
+        <relativePosition aspect="16:9">1850.0,11.0</relativePosition>
+        <relativePosition aspect="16:10">1660.0,11.0</relativePosition>
         <foregroundSpriteMode>Fill</foregroundSpriteMode>
         <atlas>IconsAtlas</atlas>
         <normalBgSprite></normalBgSprite>
