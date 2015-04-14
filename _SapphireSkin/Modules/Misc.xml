@@ -5,7 +5,8 @@
         <Component name="PauseOutline">
             <atlas>Backgrounds</atlas>
             <spriteName>PauseOutline</spriteName>
-            <size>1920.0, 1080.0</size>
+            <size aspect="16:9">1920.0, 1080.0</size>
+            <size aspect="16:10">1728.0, 1080.0</size>
             <relativePosition>0.0, 0.0</relativePosition>
         </Component>
         
@@ -13,7 +14,7 @@
     <Component name="ThumbnailBar">
         <isVisible>false</isVisible>
     </Component>
-
+ 
     <Component name="SapphireButton">
         <atlas>IconsAtlas</atlas>
         <size>64.0, 64.0</size>
@@ -30,5 +31,6 @@
         <relativePosition aspect="16:10">1394.0, 144.0</relativePosition>
     </Component>
 </UIView>
+
 
 

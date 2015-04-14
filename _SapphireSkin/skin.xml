@@ -6,7 +6,9 @@
     <Module class="InGame">Modules/InfoMenu.xml</Module>
     <Module class="InGame">Modules/OptionsBar.xml</Module>
     <Module class="InGame">Modules/SiliconSkinHide.xml</Module>
-
+    <Module class="InGame">Modules/ModCompatibility.xml</Module>
+    
+    
     <SpriteAtlas name="Backgrounds">
         <Sprite name="SubcategoriesPanel">Sprites/TSContainerBg.png</Sprite>
         <Sprite name="TSBarBackground">Sprites/MainUiBg.png</Sprite>

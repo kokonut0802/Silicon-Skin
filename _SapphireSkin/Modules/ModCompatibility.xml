@@ -1,0 +1,28 @@
+<UIView>
+ 
+  <!-- No pillars -->
+	<Component name="UIButton" hash="1B0CDBFE9" optional="true">
+		<relativePosition>100.0, 940.0</relativePosition>
+		<size>80.0, 20.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+	<Component name="UIButton" hash="180411189" optional="true">
+		<relativePosition>240.0, 940.0</relativePosition>
+		<size>80.0, 20.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+	
+</UIView>
