@@ -13,10 +13,12 @@
     <Component name="ThumbnailBar">
         <isVisible>false</isVisible>
     </Component>
+
     <Component name="SapphireButton">
         <atlas>IconsAtlas</atlas>
         <size>64.0, 64.0</size>
-        <relativePosition>1850.0, 74.0</relativePosition>
+        <relativePosition aspect="16:9">1850.0, 74.0</relativePosition>
+        <relativePosition aspect="16:10">1660.0, 74.0</relativePosition>
         <isVisible>true</isVisible>
         <normalFgSprite>SapphireNormal</normalFgSprite>
         <hoveredFgSprite>SapphireHovered</hoveredFgSprite>
@@ -25,6 +27,7 @@
  
     <Component name="SapphireSkinManager">
         <relativePosition>1584.0, 144.0</relativePosition>
+        <relativePosition aspect="16:10">1394.0, 144.0</relativePosition>
     </Component>
 </UIView>
 

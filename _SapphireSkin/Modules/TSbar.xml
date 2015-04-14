@@ -31,7 +31,8 @@
         </Component>
         <Component name="TSContainer">
             <atlas>Backgrounds</atlas>
-            <size>1920.0, 150.0</size>
+            <size aspect="16:9">1920.0, 150.0</size>
+            <size aspect="16:10">1728.0, 150.0</size>
             <relativePosition>0.0, -149.0</relativePosition>
             <Component name=".*" name_regex="true">
                 <Component name="GTSContainer" optional="true">
@@ -40,7 +41,8 @@
                     <relativePosition>0.0, 0.0</relativePosition>
                     <Component name=".*" name_regex="true" optional="true" recursive="true">
                         <Component name="ScrollablePanel" optional="true">
-                            <size sticky="true">1700.0, 109.0</size>
+                            <size sticky="true" aspect="16:9">1700.0, 109.0</size>
+                            <size sticky="true" aspect="16:10">1508.0, 109.0</size>
                             <relativePosition>100.0, 5.0</relativePosition>
                             <Component name=".*" name_regex="true" optional="true">
                                 <size>96.0, 96.0</size>
@@ -63,7 +65,8 @@
                                 <atlas>IconsAtlas</atlas>
                                 <size>18.0, 18.0</size>
                                 <anchor>Bottom|Right</anchor>
-                                <relativePosition sticky="true">1860.0, 50.0</relativePosition>
+                                <relativePosition sticky="true" aspect="16:9">1860.0, 50.0</relativePosition>
+                                <relativePosition sticky="true" aspect="16:10">1668.0, 50.0</relativePosition>
                                 <normalBgSprite>ArrowRight</normalBgSprite>
                                 <hoveredBgSprite>ArrowRightHovered</hoveredBgSprite>
                                 <pressedBgSprite>ArrowRightPressed</pressedBgSprite>
@@ -81,7 +84,8 @@
             <isVisible>false</isVisible>
         </Component>
         <Component name="AdvisorButton">
-            <relativePosition>1750.0, 47.0</relativePosition>
+            <relativePosition aspect="16:9">1750.0, 47.0</relativePosition>
+            <relativePosition aspect="16:10">1560.0, 47.0</relativePosition>
             <atlas>IconsAtlas</atlas>
             <SpriteState index="0" type="background">
                 <normal></normal>

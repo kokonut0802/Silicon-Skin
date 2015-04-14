@@ -3,7 +3,8 @@
         <text></text>
         <atlas>IconsAtlas</atlas>
         <size>48.0, 48.0</size>
-        <relativePosition>1850.0, 1011.0</relativePosition>
+        <relativePosition aspect="16:9">1850.0, 1011.0</relativePosition>
+        <relativePosition aspect="16:10">1660.0, 1011.0</relativePosition>
         <isVisible>true</isVisible>
         <SpriteState index="0" type="background">
             <normal></normal>
