@@ -1,0 +1,41 @@
+<UIView>
+    <Component name="SiliconSkinHideUiButton">
+        <text></text>
+        <atlas>IconsAtlas</atlas>
+        <size>48.0, 48.0</size>
+        <relativePosition>1850.0, 1011.0</relativePosition>
+        <isVisible>true</isVisible>
+        <SpriteState index="0" type="background">
+            <normal></normal>
+            <hovered></hovered>
+            <pressed></pressed>
+            <focused></focused>
+            <disabled></disabled>
+        </SpriteState>
+        <SpriteState index="0" type="foreground">
+            <normal>HideButtonNormal</normal>
+            <hovered>HideButtonHovered</hovered>
+            <pressed>HideButtonPressed</pressed>
+            <focused>HideButtonFocused</focused>
+            <disabled>HideButtonDisabled</disabled>
+        </SpriteState>
+        <SpriteState index="1" type="background">
+            <normal></normal>
+            <hovered></hovered>
+            <pressed></pressed>
+            <focused></focused>
+            <disabled></disabled>
+        </SpriteState>
+        <SpriteState index="1" type="foreground">
+            <normal>ShowButtonNormal</normal>
+            <hovered>ShowButtonHovered</hovered>
+            <pressed>ShowButtonPressed</pressed>
+            <focused>ShowButtonFocused</focused>
+            <disabled>ShowButtonDisabled</disabled>
+        </SpriteState>
+        <Component name="HideControls">
+            <size>256.0, 288.0</size>
+            <autoSize>false</autoSize>
+        </Component>
+    </Component>
+</UIView>

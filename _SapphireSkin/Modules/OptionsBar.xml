@@ -1,0 +1,222 @@
+<UIView>
+    <Component name="TSBar">
+        <Component name="OptionsBar">
+            <isVisible>true</isVisible>
+            <atlas>IconsAtlas</atlas>
+            <size>250.0 , 22.0</size>
+            <zOrder>100</zOrder>
+            <relativePosition>350.0, 35.0</relativePosition>
+            <Component name="ZoningOptionPanel">
+                <padding>3,0,0,0</padding>
+                <relativePosition>100.0, 0.0</relativePosition>
+                <Component name="Fill">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>ZoningOptionFill</normalFgSprite>
+                    <hoveredFgSprite>ZoningOptionFillHovered</hoveredFgSprite>
+                    <focusedFgSprite>ZoningOptionFillFocused</focusedFgSprite>
+                    <disabledFgSprite>ZoningOptionFillDisabled</disabledFgSprite>
+                    <pressedFgSprite>ZoningOptionFillPressed</pressedFgSprite>
+                </Component>
+                <Component name="Marquee">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>ZoningOptionMarquee</normalFgSprite>
+                    <hoveredFgSprite>ZoningOptionMarqueeHovered</hoveredFgSprite>
+                    <focusedFgSprite>ZoningOptionMarqueeFocused</focusedFgSprite>
+                    <disabledFgSprite>ZoningOptionMarqueeDisabled</disabledFgSprite>
+                    <pressedFgSprite>ZoningOptionMarqueePressed</pressedFgSprite>
+                </Component>
+                <Component name="BrushSmall">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>ZoningOptionBrushSmall</normalFgSprite>
+                    <hoveredFgSprite>ZoningOptionBrushSmallHovered</hoveredFgSprite>
+                    <focusedFgSprite>ZoningOptionBrushSmallFocused</focusedFgSprite>
+                    <disabledFgSprite>ZoningOptionBrushSmallDisabled</disabledFgSprite>
+                    <pressedFgSprite>ZoningOptionBrushSmallPressed</pressedFgSprite>
+                </Component>
+                <Component name="BrushLarge">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>ZoningOptionBrushLarge</normalFgSprite>
+                    <hoveredFgSprite>ZoningOptionBrushLargeHovered</hoveredFgSprite>
+                    <focusedFgSprite>ZoningOptionBrushLargeFocused</focusedFgSprite>
+                    <disabledFgSprite>ZoningOptionBrushLargeDisabled</disabledFgSprite>
+                    <pressedFgSprite>ZoningOptionBrushLargePressed</pressedFgSprite>
+                </Component>
+            </Component>
+            <Component name="DistrictOptionPanel">
+                <padding>3,0,0,0</padding>
+                <relativePosition>181.0, 0.0</relativePosition>
+                <Component name="BrushSmall">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>DistrictOptionBrushSmall</normalFgSprite>
+                    <hoveredFgSprite>DistrictOptionBrushSmallHovered</hoveredFgSprite>
+                    <focusedFgSprite>DistrictOptionBrushSmallFocused</focusedFgSprite>
+                    <disabledFgSprite>DistrictOptionBrushSmallDisabled</disabledFgSprite>
+                    <pressedFgSprite>DistrictOptionBrushSmallPressed</pressedFgSprite>
+                </Component>
+                <Component name="BrushMedium">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>DistrictOptionBrushMedium</normalFgSprite>
+                    <hoveredFgSprite>DistrictOptionBrushMediumHovered</hoveredFgSprite>
+                    <focusedFgSprite>DistrictOptionBrushMediumFocused</focusedFgSprite>
+                    <disabledFgSprite>DistrictOptionBrushMediumDisabled</disabledFgSprite>
+                    <pressedFgSprite>DistrictOptionBrushMediumPressed</pressedFgSprite>
+                </Component>
+                <Component name="BrushLarge">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <normalBgSprite></normalBgSprite>
+                    <hoveredBgSprite></hoveredBgSprite>
+                    <focusedBgSprite></focusedBgSprite>
+                    <disabledBgSprite></disabledBgSprite>
+                    <pressedBgSprite></pressedBgSprite>
+                    <normalFgSprite>DistrictOptionBrushLarge</normalFgSprite>
+                    <hoveredFgSprite>DistrictOptionBrushLargeHovered</hoveredFgSprite>
+                    <focusedFgSprite>DistrictOptionBrushLargeFocused</focusedFgSprite>
+                    <disabledFgSprite>DistrictOptionBrushLargeDisabled</disabledFgSprite>
+                    <pressedFgSprite>DistrictOptionBrushLargePressed</pressedFgSprite>
+                </Component>
+            </Component>
+            <Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
+                <relativePosition>0.0, 0.0</relativePosition>
+                <Component name="SnappingToggle">
+                    <atlas>IconsAtlas</atlas>
+                    <size>22.0 , 22.0</size>
+                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                    <SpriteState index="0" type="background">
+                        <normal></normal>
+                        <hovered></hovered>
+                        <pressed></pressed>
+                        <focused></focused>
+                        <disabled></disabled>
+                    </SpriteState>
+                    <SpriteState index="0" type="foreground">
+                        <normal>Snapping</normal>
+                        <hovered>SnappingHovered</hovered>
+                        <pressed>SnappingPressed</pressed>
+                        <focused>Snapping</focused>
+                    </SpriteState>
+                    <SpriteState index="1" type="background">
+                        <normal></normal>
+                        <hovered></hovered>
+                        <pressed></pressed>
+                        <focused></focused>
+                        <disabled></disabled>
+                    </SpriteState>
+                    <SpriteState index="1" type="foreground">
+                        <normal>SnappingFocused</normal>
+                        <hovered>SnappingHovered</hovered>
+                        <pressed>SnappingPressed</pressed>
+                        <focused>SnappingFocused</focused>
+                    </SpriteState>
+                </Component>
+                <Component name="ToolMode">
+                    <padding>3,0,0,0</padding>
+                    <relativePosition>40.0, 0.0</relativePosition>
+                    <Component name="Straight">
+                        <atlas>IconsAtlas</atlas>
+                        <size>22.0 , 22.0</size>
+                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                        <normalBgSprite></normalBgSprite>
+                        <hoveredBgSprite></hoveredBgSprite>
+                        <focusedBgSprite></focusedBgSprite>
+                        <disabledBgSprite></disabledBgSprite>
+                        <pressedBgSprite></pressedBgSprite>
+                        <normalFgSprite>RoadOptionStraight</normalFgSprite>
+                        <hoveredFgSprite>RoadOptionStraightHovered</hoveredFgSprite>
+                        <focusedFgSprite>RoadOptionStraightFocused</focusedFgSprite>
+                        <disabledFgSprite>RoadOptionStraightDisabled</disabledFgSprite>
+                        <pressedFgSprite>RoadOptionStraightPressed</pressedFgSprite>
+                    </Component>
+                    <Component name="Curved">
+                        <atlas>IconsAtlas</atlas>
+                        <size>22.0 , 22.0</size>
+                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                        <normalBgSprite></normalBgSprite>
+                        <hoveredBgSprite></hoveredBgSprite>
+                        <focusedBgSprite></focusedBgSprite>
+                        <disabledBgSprite></disabledBgSprite>
+                        <pressedBgSprite></pressedBgSprite>
+                        <normalFgSprite>RoadOptionCurved</normalFgSprite>
+                        <hoveredFgSprite>RoadOptionCurvedHovered</hoveredFgSprite>
+                        <focusedFgSprite>RoadOptionCurvedFocused</focusedFgSprite>
+                        <disabledFgSprite>RoadOptionCurvedDisabled</disabledFgSprite>
+                        <pressedFgSprite>RoadOptionCurvedPressed</pressedFgSprite>
+                    </Component>
+                    <Component name="Freeform">
+                        <atlas>IconsAtlas</atlas>
+                        <size>22.0 , 22.0</size>
+                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                        <normalBgSprite></normalBgSprite>
+                        <hoveredBgSprite></hoveredBgSprite>
+                        <focusedBgSprite></focusedBgSprite>
+                        <disabledBgSprite></disabledBgSprite>
+                        <pressedBgSprite></pressedBgSprite>
+                        <normalFgSprite>RoadOptionFreeform</normalFgSprite>
+                        <hoveredFgSprite>RoadOptionFreeformHovered</hoveredFgSprite>
+                        <focusedFgSprite>RoadOptionFreeformFocused</focusedFgSprite>
+                        <disabledFgSprite>RoadOptionFreeformDisabled</disabledFgSprite>
+                        <pressedFgSprite>RoadOptionFreeformPressed</pressedFgSprite>
+                    </Component>
+                    <Component name="Upgrade">
+                        <atlas>IconsAtlas</atlas>
+                        <size>22.0 , 22.0</size>
+                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                        <normalBgSprite></normalBgSprite>
+                        <hoveredBgSprite></hoveredBgSprite>
+                        <focusedBgSprite></focusedBgSprite>
+                        <disabledBgSprite></disabledBgSprite>
+                        <pressedBgSprite></pressedBgSprite>
+                        <normalFgSprite>RoadOptionUpgrade</normalFgSprite>
+                        <hoveredFgSprite>RoadOptionUpgradeHovered</hoveredFgSprite>
+                        <focusedFgSprite>RoadOptionUpgradeFocused</focusedFgSprite>
+                        <disabledFgSprite>RoadOptionUpgradeDisabled</disabledFgSprite>
+                        <pressedFgSprite>RoadOptionUpgradePressed</pressedFgSprite>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</UIView>

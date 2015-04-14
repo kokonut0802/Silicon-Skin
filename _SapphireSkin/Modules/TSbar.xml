@@ -1,0 +1,439 @@
+<UIView>
+    <Component name="TSBar">
+        <atlas>Backgrounds</atlas>
+        <spriteName>TSBarBackground</spriteName>
+        <isVisible>true</isVisible>
+        <size>2000.0,110.0</size>
+        <relativePosition>0.0, 970.0</relativePosition>
+        <Component name="UnlockButton">
+            <atlas>IconsAtlas</atlas>
+            <anchor>Bottom|Left</anchor>
+            <size>48.0, 48.0</size>
+            <relativePosition>68.0, 41.0</relativePosition>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+            <normalBgSprite>OptionBase</normalBgSprite>
+            <hoveredBgSprite>OptionBaseHovered</hoveredBgSprite>
+            <pressedBgSprite>OptionBasePressed</pressedBgSprite>
+            <atlas>IconsAtlas</atlas>
+            <Component name="UnlockProgress">
+                <atlas>IconsAtlas</atlas>
+                <spriteName>ToolbarIconUnlockRadial</spriteName>
+            </Component>
+        </Component>
+        <Component name="TSCloseButton">
+            <atlas>IconsAtlas</atlas>
+            <normalBgSprite>buttonclose</normalBgSprite>
+            <hoveredBgSprite>buttonclosehover</hoveredBgSprite>
+            <pressedBgSprite>buttonclosepressed</pressedBgSprite>
+            <relativePosition>1853.0, -163.0</relativePosition>
+            <size>24.0, 24.0</size>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+        </Component>
+        <Component name="TSContainer">
+            <atlas>Backgrounds</atlas>
+            <size>1920.0, 150.0</size>
+            <relativePosition>0.0, -149.0</relativePosition>
+            <Component name=".*" name_regex="true">
+                <Component name="GTSContainer" optional="true">
+                    <atlas>Backgrounds</atlas>
+                    <backgroundSprite>SubcategoriesPanel</backgroundSprite>
+                    <relativePosition>0.0, 0.0</relativePosition>
+                    <Component name=".*" name_regex="true" optional="true" recursive="true">
+                        <Component name="ScrollablePanel" optional="true">
+                            <size sticky="true">1700.0, 109.0</size>
+                            <relativePosition>100.0, 5.0</relativePosition>
+                            <Component name=".*" name_regex="true" optional="true">
+                                <size>96.0, 96.0</size>
+                                <foregroundSpriteMode>Scale</foregroundSpriteMode>
+                            </Component>
+                        </Component>
+                        <Component name="Scrollbar" optional="true">
+                            <Component name="ArrowLeft">
+                                <atlas>IconsAtlas</atlas>
+                                <size>18.0, 18.0</size>
+                                <anchor>Bottom|Left</anchor>
+                                <relativePosition sticky="true">10.0, 50.0</relativePosition>
+                                <normalBgSprite>ArrowLeft</normalBgSprite>
+                                <hoveredBgSprite>ArrowLeftHovered</hoveredBgSprite>
+                                <pressedBgSprite>ArrowLeftPressed</pressedBgSprite>
+                                <disabledBgSprite>ArrowLeftDisabled</disabledBgSprite>
+                                <foregroundSpriteMode>Fill</foregroundSpriteMode>
+                            </Component>
+                            <Component name="ArrowRight">
+                                <atlas>IconsAtlas</atlas>
+                                <size>18.0, 18.0</size>
+                                <anchor>Bottom|Right</anchor>
+                                <relativePosition sticky="true">1860.0, 50.0</relativePosition>
+                                <normalBgSprite>ArrowRight</normalBgSprite>
+                                <hoveredBgSprite>ArrowRightHovered</hoveredBgSprite>
+                                <pressedBgSprite>ArrowRightPressed</pressedBgSprite>
+                                <disabledBgSprite>ArrowLRightDisabled</disabledBgSprite>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+                <Component name="GroupToolstrip" optional="true">
+                    <relativePosition>100.0, -28.0</relativePosition>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Sprite">
+            <isVisible>false</isVisible>
+        </Component>
+        <Component name="AdvisorButton">
+            <relativePosition>1750.0, 47.0</relativePosition>
+            <atlas>IconsAtlas</atlas>
+            <SpriteState index="0" type="background">
+                <normal></normal>
+                <hovered></hovered>
+                <pressed></pressed>
+                <focused></focused>
+                <disabled></disabled>
+            </SpriteState>
+            <SpriteState index="0" type="foreground">
+                <normal>AdvisorButtonNormal</normal>
+                <hovered>AdvisorButtonHovered</hovered>
+                <pressed>AdvisorButtonPressed</pressed>
+                <focused>AdvisorButtonFocused</focused>
+                <disabled>AdvisorButtonDisabled</disabled>
+            </SpriteState>
+            <SpriteState index="1" type="background">
+                <normal></normal>
+                <hovered></hovered>
+                <pressed></pressed>
+                <focused></focused>
+                <disabled></disabled>
+            </SpriteState>
+            <SpriteState index="1" type="foreground">
+                <normal>AdvisorButtonNormal</normal>
+                <hovered>AdvisorButtonHovered</hovered>
+                <pressed>AdvisorButtonPressed</pressed>
+                <focused>AdvisorButtonFocused</focused>
+                <disabled>AdvisorButtonDisabled</disabled>
+            </SpriteState>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+        </Component>
+        <Component name="ZoomButton">
+            <atlas>IconsAtlas</atlas>
+            <size>48.0, 48.0</size>
+            <relativePosition>10.0, 41.0</relativePosition>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+            <SpriteState index="0" type="background">
+                <normal></normal>
+                <hovered></hovered>
+                <pressed></pressed>
+                <focused></focused>
+                <disabled></disabled>
+            </SpriteState>
+            <SpriteState index="0" type="foreground">
+                <normal>ToolbarIconZoomOutGlobe</normal>
+                <hovered>ToolbarIconZoomOutGlobeHovered</hovered>
+                <pressed>ToolbarIconZoomOutGlobePressed</pressed>
+                <focused>ToolbarIconZoomOutGlobeFocused</focused>
+                <disabled>ToolbarIconZoomOutGlobeDisabled</disabled>
+            </SpriteState>
+            <SpriteState index="1" type="background">
+                <normal></normal>
+                <hovered></hovered>
+                <pressed></pressed>
+                <focused></focused>
+                <disabled></disabled>
+            </SpriteState>
+            <SpriteState index="1" type="foreground">
+                <normal>ToolbarIconZoomOutGlobe</normal>
+                <hovered>ToolbarIconZoomOutGlobeHovered</hovered>
+                <pressed>ToolbarIconZoomOutGlobePressed</pressed>
+                <focused>ToolbarIconZoomOutGlobeFocused</focused>
+                <disabled>ToolbarIconZoomOutGlobeDisabled</disabled>
+            </SpriteState>
+        </Component>
+        <Component name="BulldozerButton">
+            <atlas>IconsAtlas</atlas>
+            <size>48.0,48.0</size>
+            <relativePosition>320.0, -20.0</relativePosition>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+            <zOrder>60</zOrder>
+        </Component>
+        <Component name="MainToolstrip">
+            <relativePosition>400.0, -20.0</relativePosition>
+            <Component name="Separator">
+                <isVisible>false</isVisible>
+            </Component>
+            <Component name="SmallSeparator">
+                <isVisible>false</isVisible>
+            </Component>
+            <size>1235.0, 64.0</size>
+            <padding>10,10,0,0</padding>
+            <Component name="Roads">
+                <size>48.0, 48.0</size>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>RoadsNormal</normalFgSprite>
+                <hoveredFgSprite>RoadsHovered</hoveredFgSprite>
+                <focusedFgSprite>RoadsFocused</focusedFgSprite>
+                <pressedFgSprite>RoadsPressed</pressedFgSprite>
+                <disabledFgSprite>RoadsDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>RoadsBgNormal</normalBgSprite>
+                <hoveredBgSprite>RoadsBgHovered</hoveredBgSprite>
+                <focusedBgSprite>RoadsBgFocused</focusedBgSprite>
+                <pressedBgSprite>RoadsBgPressed</pressedBgSprite>
+                <disabledBgSprite>RoadsBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Zoning">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>ZoneNormal</normalFgSprite>
+                <hoveredFgSprite>ZoneHovered</hoveredFgSprite>
+                <focusedFgSprite>ZoneFocused</focusedFgSprite>
+                <pressedFgSprite>ZonePressed</pressedFgSprite>
+                <disabledFgSprite>ZoneDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>ZoneBgNormal</normalBgSprite>
+                <hoveredBgSprite>ZoneBgHovered</hoveredBgSprite>
+                <focusedBgSprite>ZoneBgFocused</focusedBgSprite>
+                <pressedBgSprite>ZoneBgPressed</pressedBgSprite>
+                <disabledBgSprite>ZoneBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="District">
+                <size>48.0, 48.0</size>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>DistNormal</normalFgSprite>
+                <hoveredFgSprite>DistHovered</hoveredFgSprite>
+                <focusedFgSprite>DistFocused</focusedFgSprite>
+                <pressedFgSprite>DistPressed</pressedFgSprite>
+                <disabledFgSprite>DistDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>DistBgNormal</normalBgSprite>
+                <hoveredBgSprite>DistBgHovered</hoveredBgSprite>
+                <focusedBgSprite>DistBgFocused</focusedBgSprite>
+                <pressedBgSprite>DistBgPressed</pressedBgSprite>
+                <disabledBgSprite>DistBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Electricity">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>ElectNormal</normalFgSprite>
+                <hoveredFgSprite>ElectHovered</hoveredFgSprite>
+                <focusedFgSprite>ElectFocused</focusedFgSprite>
+                <pressedFgSprite>ElectPressed</pressedFgSprite>
+                <disabledFgSprite>ElectDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>ElectBgNormal</normalBgSprite>
+                <hoveredBgSprite>ElectBgHovered</hoveredBgSprite>
+                <focusedBgSprite>ElectBgFocused</focusedBgSprite>
+                <pressedBgSprite>ElectBgPressed</pressedBgSprite>
+                <disabledBgSprite>ElectBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="WaterAndSewage">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>WaterNormal</normalFgSprite>
+                <hoveredFgSprite>WaterHovered</hoveredFgSprite>
+                <focusedFgSprite>WaterFocused</focusedFgSprite>
+                <pressedFgSprite>WaterPressed</pressedFgSprite>
+                <disabledFgSprite>WaterDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>WaterBgNormal</normalBgSprite>
+                <hoveredBgSprite>WaterBgHovered</hoveredBgSprite>
+                <focusedBgSprite>WaterBgFocused</focusedBgSprite>
+                <pressedBgSprite>WaterBgPressed</pressedBgSprite>
+                <disabledBgSprite>WaterBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Garbage">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>GarbageNormal</normalFgSprite>
+                <hoveredFgSprite>GarbageHovered</hoveredFgSprite>
+                <focusedFgSprite>GarbageFocused</focusedFgSprite>
+                <pressedFgSprite>GarbagePressed</pressedFgSprite>
+                <disabledFgSprite>GarbageDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>GarbageBgNormal</normalBgSprite>
+                <hoveredBgSprite>GarbageBgHovered</hoveredBgSprite>
+                <focusedBgSprite>GarbageBgFocused</focusedBgSprite>
+                <pressedBgSprite>GarbageBgPressed</pressedBgSprite>
+                <disabledBgSprite>GarbageBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Healthcare">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>HealthNormal</normalFgSprite>
+                <hoveredFgSprite>HealthHovered</hoveredFgSprite>
+                <focusedFgSprite>HealthFocused</focusedFgSprite>
+                <pressedFgSprite>HealthPressed</pressedFgSprite>
+                <disabledFgSprite>HealthDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>HealthBgNormal</normalBgSprite>
+                <hoveredBgSprite>HealthBgHovered</hoveredBgSprite>
+                <focusedBgSprite>HealthBgFocused</focusedBgSprite>
+                <pressedBgSprite>HealthBgPressed</pressedBgSprite>
+                <disabledBgSprite>HealthBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="FireDepartment">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>FireNormal</normalFgSprite>
+                <hoveredFgSprite>FireHovered</hoveredFgSprite>
+                <focusedFgSprite>FireFocused</focusedFgSprite>
+                <pressedFgSprite>FirePressed</pressedFgSprite>
+                <disabledFgSprite>FireDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>FireBgNormal</normalBgSprite>
+                <hoveredBgSprite>FireBgHovered</hoveredBgSprite>
+                <focusedBgSprite>FireBgFocused</focusedBgSprite>
+                <pressedBgSprite>FireBgPressed</pressedBgSprite>
+                <disabledBgSprite>FireBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Police">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>PoliceNormal</normalFgSprite>
+                <hoveredFgSprite>PoliceHovered</hoveredFgSprite>
+                <focusedFgSprite>PoliceFocused</focusedFgSprite>
+                <pressedFgSprite>PolicePressed</pressedFgSprite>
+                <disabledFgSprite>PoliceDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>PoliceBgNormal</normalBgSprite>
+                <hoveredBgSprite>PoliceBgHovered</hoveredBgSprite>
+                <focusedBgSprite>PoliceBgFocused</focusedBgSprite>
+                <pressedBgSprite>PoliceBgPressed</pressedBgSprite>
+                <disabledBgSprite>PoliceBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Education">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>EduNormal</normalFgSprite>
+                <hoveredFgSprite>EduHovered</hoveredFgSprite>
+                <focusedFgSprite>EduFocused</focusedFgSprite>
+                <pressedFgSprite>EduPressed</pressedFgSprite>
+                <disabledFgSprite>EduDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>EduBgNormal</normalBgSprite>
+                <hoveredBgSprite>EduBgHovered</hoveredBgSprite>
+                <focusedBgSprite>EduBgFocused</focusedBgSprite>
+                <pressedBgSprite>EduBgPressed</pressedBgSprite>
+                <disabledBgSprite>EduBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="PublicTransport">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>PtNormal</normalFgSprite>
+                <hoveredFgSprite>PtHovered</hoveredFgSprite>
+                <focusedFgSprite>PtFocused</focusedFgSprite>
+                <pressedFgSprite>PtPressed</pressedFgSprite>
+                <disabledFgSprite>PtDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>PtBgNormal</normalBgSprite>
+                <hoveredBgSprite>PtBgHovered</hoveredBgSprite>
+                <focusedBgSprite>PtBgFocused</focusedBgSprite>
+                <pressedBgSprite>PtBgPressed</pressedBgSprite>
+                <disabledBgSprite>PtBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Beautification">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>DecorNormal</normalFgSprite>
+                <hoveredFgSprite>DecorHovered</hoveredFgSprite>
+                <focusedFgSprite>DecorFocused</focusedFgSprite>
+                <pressedFgSprite>DecorPressed</pressedFgSprite>
+                <disabledFgSprite>DecorDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>DecorBgNormal</normalBgSprite>
+                <hoveredBgSprite>DecorBgHovered</hoveredBgSprite>
+                <focusedBgSprite>DecorBgFocused</focusedBgSprite>
+                <pressedBgSprite>DecorBgPressed</pressedBgSprite>
+                <disabledBgSprite>DecorBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Monuments">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>MonuNormal</normalFgSprite>
+                <hoveredFgSprite>MonuHovered</hoveredFgSprite>
+                <focusedFgSprite>MonuFocused</focusedFgSprite>
+                <pressedFgSprite>MonuPressed</pressedFgSprite>
+                <disabledFgSprite>MonuDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>MonuBgNormal</normalBgSprite>
+                <hoveredBgSprite>MonuBgHovered</hoveredBgSprite>
+                <focusedBgSprite>MonuBgFocused</focusedBgSprite>
+                <pressedBgSprite>MonuBgPressed</pressedBgSprite>
+                <disabledBgSprite>MonuBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Wonders">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>WonNormal</normalFgSprite>
+                <hoveredFgSprite>WonHovered</hoveredFgSprite>
+                <focusedFgSprite>WonFocused</focusedFgSprite>
+                <pressedFgSprite>WonPressed</pressedFgSprite>
+                <disabledFgSprite>WonDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>WonBgNormal</normalBgSprite>
+                <hoveredBgSprite>WonBgHovered</hoveredBgSprite>
+                <focusedBgSprite>WonBgFocused</focusedBgSprite>
+                <pressedBgSprite>WonBgPressed</pressedBgSprite>
+                <disabledBgSprite>WonBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Money">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>MoneyNormal</normalFgSprite>
+                <hoveredFgSprite>MoneyHovered</hoveredFgSprite>
+                <focusedFgSprite>MoneyFocused</focusedFgSprite>
+                <pressedFgSprite>MoneyPressed</pressedFgSprite>
+                <disabledFgSprite>MoneyDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>MoneyBgNormal</normalBgSprite>
+                <hoveredBgSprite>MoneyBgHovered</hoveredBgSprite>
+                <focusedBgSprite>MoneyBgFocused</focusedBgSprite>
+                <pressedBgSprite>MoneyBgPressed</pressedBgSprite>
+                <disabledBgSprite>MoneyBgDisabled</disabledBgSprite>
+            </Component>
+            <Component name="Policies">
+                <size>48.0, 48.0</size>
+                <relativePosition>128.0, 0.0</relativePosition>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>PolNormal</normalFgSprite>
+                <hoveredFgSprite>PolHovered</hoveredFgSprite>
+                <focusedFgSprite>PolFocused</focusedFgSprite>
+                <pressedFgSprite>PolPressed</pressedFgSprite>
+                <disabledFgSprite>PolDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>PolBgNormal</normalBgSprite>
+                <hoveredBgSprite>PolBgHovered</hoveredBgSprite>
+                <focusedBgSprite>PolBgFocused</focusedBgSprite>
+                <pressedBgSprite>PolBgPressed</pressedBgSprite>
+                <disabledBgSprite>PolBgDisabled</disabledBgSprite>
+            </Component>
+        </Component>
+    </Component>
+</UIView>

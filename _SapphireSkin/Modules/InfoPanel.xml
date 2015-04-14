@@ -1,0 +1,204 @@
+<UIView>
+    <Component name="InfoPanel">
+        <atlas>Backgrounds</atlas>
+        <size>2000.0,0.0</size>
+        <relativePosition>0.0,1028.0</relativePosition>
+        <isVisible>true</isVisible>
+        <Component name="SiliconTextColors">
+            <color>Green</color>
+            <disabledColor>Red</disabledColor>
+        </Component>
+        <Component name="PanelTime">
+            <anchor>Bottom|Left</anchor>
+            <size>245.0,0.0</size>
+            <relativePosition>155.0,16.0</relativePosition>
+            <isVisible>true</isVisible>
+            <Component name="TimeBarColors">
+                <color raw="true">117,212,40,255</color>
+                <disabledColor raw="true">243,104,15,255</disabledColor>
+            </Component>
+            <Component name="Play">
+                <atlas>IconsAtlas</atlas>
+                <anchor>Bottom|Left</anchor>
+                <size>37.0,30.0</size>
+                <relativePosition>-4.0,-3.0</relativePosition>
+                <foregroundSpriteMode>Scale</foregroundSpriteMode>
+                <SpriteState index="0" type="background">
+                    <normal></normal>
+                    <hovered></hovered>
+                    <pressed></pressed>
+                    <focused></focused>
+                    <disabled></disabled>
+                </SpriteState>
+                <SpriteState index="0" type="foreground">
+                    <normal>ButtonPlay</normal>
+                    <hovered>ButtonPlayHovered</hovered>
+                    <pressed>ButtonPlayPressed</pressed>
+                    <focused>ButtonPlayFocused</focused>
+                </SpriteState>
+                <SpriteState index="1" type="background">
+                    <normal></normal>
+                    <hovered></hovered>
+                    <pressed></pressed>
+                    <focused></focused>
+                    <disabled></disabled>
+                </SpriteState>
+                <SpriteState index="1" type="foreground">
+                    <normal>ButtonPause</normal>
+                    <hovered>ButtonPauseHovered</hovered>
+                    <pressed>ButtonPausePressed</pressed>
+                    <focused>ButtonPauseFocused</focused>
+                </SpriteState>
+            </Component>
+            <Component name="Speed">
+                <atlas>IconsAtlas</atlas>
+                <anchor>Bottom|Left</anchor>
+                <size>37.0,30.0</size>
+                <relativePosition>200.0,-3.0</relativePosition>
+                <foregroundSpriteMode>Scale</foregroundSpriteMode>
+                <SpriteState index="0" type="foreground">
+                    <normal>IconSpeed1Normal</normal>
+                    <hovered>IconSpeed1Hover</hovered>
+                    <focused>IconSpeed1Normal</focused>
+                    <pressed>IconSpeed1Normal</pressed>
+                </SpriteState>
+                <SpriteState index="1" type="foreground">
+                    <normal>IconSpeed2Normal</normal>
+                    <hovered>IconSpeed2Hover</hovered>
+                    <focused>IconSpeed2Normal</focused>
+                    <pressed>IconSpeed2Normal</pressed>
+                </SpriteState>
+                <SpriteState index="2" type="foreground">
+                    <normal>IconSpeed3Normal</normal>
+                    <hovered>IconSpeed3Hover</hovered>
+                    <focused>IconSpeed3Normal</focused>
+                    <pressed>IconSpeed3Normal</pressed>
+                </SpriteState>
+            </Component>
+            <Component name="Background">
+                <isVisible>false</isVisible>
+            </Component>
+            <Component name="Sprite">
+                <size>165.0,2.0</size>
+                <relativePosition>35.0, 20.0</relativePosition>
+                <Component name="Time">
+                    <relativePosition>28.0, -18.0</relativePosition>
+                    <textScale>0.9</textScale>
+                    <textColor>Red</textColor>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Happiness">
+            <atlas>IconsAtlas</atlas>
+            <anchor>Bottom|Left</anchor>
+            <size>48.0,48.0</size>
+            <relativePosition>140.0,-50.0</relativePosition>
+            <isVisible>true</isVisible>
+        </Component>
+        <Component name="Name">
+            <anchor>Bottom|Left</anchor>
+            <size>260.0, 40.0</size>
+            <textColor>Blue</textColor>
+            <textAlignment>Left</textAlignment>
+            <relativePosition>550.0, 8.0</relativePosition>
+            <Component name="CityInfo">
+                <size>16.0, 21.0</size>
+                <atlas>IconsAtlas</atlas>
+                <!-- these are the foreground sprites -->
+                <normalFgSprite>CityInfoNormal</normalFgSprite>
+                <hoveredFgSprite>CityInfoHovered</hoveredFgSprite>
+                <focusedFgSprite>CityInfoFocused</focusedFgSprite>
+                <pressedFgSprite>CityInfoPressed</pressedFgSprite>
+                <disabledFgSprite>CityInfoDisabled</disabledFgSprite>
+                <!-- these are the background sprites -->
+                <normalBgSprite>CityInfoBgNormal</normalBgSprite>
+                <hoveredBgSprite>CityInfoBgHovered</hoveredBgSprite>
+                <focusedBgSprite>CityInfoBgFocused</focusedBgSprite>
+                <pressedBgSprite>CityInfoBgPressed</pressedBgSprite>
+                <disabledBgSprite>CityInfoBgDisabled</disabledBgSprite>
+            </Component>
+            <backgroundSprite />
+        </Component>
+        <Component name="IncomePanel">
+            <anchor>Bottom|Right</anchor>
+            <relativePosition>955.0,13.0</relativePosition>
+            <normalBgSprite />
+            <normalFgSprite>InfoPanelIconCurrency</normalFgSprite>
+            <atlas>IconsAtlas</atlas>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+            <Component name="ProjectedIncome">
+                <anchor>Bottom|Left</anchor>
+                <textAlignment>Right</textAlignment>
+                <textScale>1.0</textScale>
+                <relativePosition>190.0,3.0</relativePosition>
+            </Component>
+            <size>260.0, 30.0</size>
+            <anchor>Bottom|Right</anchor>
+            <textScale>1.0</textScale>
+            <textPadding>30, 0, 3, 0</textPadding>
+            <normalBgSprite />
+        </Component>
+        <Component name="PopulationPanel">
+            <relativePosition>1240.0,13.0</relativePosition>
+            <normalFgSprite>InfoPanelIconPopulation</normalFgSprite>
+            <atlas>IconsAtlas</atlas>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+            <Component name="ProjectedChange">
+                <anchor>Bottom|Left</anchor>
+                <textScale>1.0</textScale>
+                <textAlignment>Right</textAlignment>
+                <relativePosition>210.0, 0.0</relativePosition>
+            </Component>
+            <anchor>Bottom|Left</anchor>
+            <size>120.0, 32.0</size>
+            <textScale>1.0</textScale>
+            <textColor>Blue</textColor>
+            <normalBgSprite />
+        </Component>
+        <Component name="Freecamera">
+            <atlas>IconsAtlas</atlas>
+            <relativePosition>1803.0, -11.0</relativePosition>
+            <normalBgSprite></normalBgSprite>
+            <hoveredBgSprite></hoveredBgSprite>
+            <focusedBgSprite></focusedBgSprite>
+            <normalFgSprite>ToolbarIconCam</normalFgSprite>
+            <hoveredFgSprite>ToolbarIconCamHovered</hoveredFgSprite>
+            <focusedFgSprite>ToolbarIconCam</focusedFgSprite>
+            <foregroundSpriteMode>Fill</foregroundSpriteMode>
+        </Component>
+        <Component name="DemandBack">
+            <anchor>Bottom|Left</anchor>
+            <size>70.0,60.0</size>
+            <relativePosition>195.0,-60.0</relativePosition>
+            <spriteName />
+            <Component name="Demand">
+                <backgroundSprite />
+                <Component name="ResidentialDemand">
+                    <backgroundSprite />
+                    <Component name="Sliced Sprite">
+                        <disabledColor>Green</disabledColor>
+                        <atlas>Backgrounds</atlas>
+                        <spriteName>DemandBar</spriteName>
+                    </Component>
+                </Component>
+                <Component name="CommercialDemand">
+                    <backgroundSprite />
+                    <Component name="Sliced Sprite">
+                        <disabledColor>Blue</disabledColor>
+                        <atlas>Backgrounds</atlas>
+                        <spriteName>DemandBar</spriteName>
+                    </Component>
+                </Component>
+                <Component name="IndustryOfficeDemand">
+                    <backgroundSprite />
+                    <Component name="Sliced Sprite">
+                        <disabledColor>Red</disabledColor>
+                        <atlas>Backgrounds</atlas>
+                        <spriteName>DemandBar</spriteName>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</UIView>
+

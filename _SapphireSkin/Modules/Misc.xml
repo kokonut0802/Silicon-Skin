@@ -1,0 +1,31 @@
+<UIView>
+    <Component name="FullScreenContainer">
+        <isVisible>true</isVisible>
+ 
+        <Component name="PauseOutline">
+            <atlas>Backgrounds</atlas>
+            <spriteName>PauseOutline</spriteName>
+            <size>1920.0, 1080.0</size>
+            <relativePosition>0.0, 0.0</relativePosition>
+        </Component>
+        
+    </Component>
+    <Component name="ThumbnailBar">
+        <isVisible>false</isVisible>
+    </Component>
+    <Component name="SapphireButton">
+        <atlas>IconsAtlas</atlas>
+        <size>64.0, 64.0</size>
+        <relativePosition>1850.0, 74.0</relativePosition>
+        <isVisible>true</isVisible>
+        <normalFgSprite>SapphireNormal</normalFgSprite>
+        <hoveredFgSprite>SapphireHovered</hoveredFgSprite>
+        <pressedFgSprite>SapphirePressed</pressedFgSprite>
+    </Component>
+ 
+    <Component name="SapphireSkinManager">
+        <relativePosition>1584.0, 144.0</relativePosition>
+    </Component>
+</UIView>
+
+

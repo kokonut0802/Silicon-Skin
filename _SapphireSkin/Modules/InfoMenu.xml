@@ -1,0 +1,39 @@
+<UIView>
+
+    <Component name="InfoPanel">
+        <Component name="InfoViewsContainer">
+            <relativePosition>6.0, -948.0</relativePosition>
+        </Component>
+        <Component name="InfoMenu">
+            <relativePosition>30.0,-1009.0</relativePosition>
+            <isVisible>True</isVisible>
+            <Component name="Info">
+                <atlas>IconsAtlas</atlas>
+                <normalBgSprite></normalBgSprite>
+                <pressedBgSprite></pressedBgSprite>
+                <hoveredBgSprite></hoveredBgSprite>
+                <focusedBgSprite></focusedBgSprite>
+                <disabledBgSprite></disabledBgSprite>
+                <normalFgSprite>InfoPanelIconInfo</normalFgSprite>
+                <pressedFgSprite>InfoPanelIconInfoPressed</pressedFgSprite>
+                <hoveredFgSprite>InfoPanelIconInfoHovered</hoveredFgSprite>
+                <focusedFgSprite>InfoPanelIconInfoFocused</focusedFgSprite>
+            </Component>
+        </Component>
+    </Component>
+    <Component name="Esc">
+        <isVisible>true</isVisible>
+        <size>64.0, 64.0</size>
+        <relativePosition>1850.0,11.0</relativePosition>
+        <foregroundSpriteMode>Fill</foregroundSpriteMode>
+        <atlas>IconsAtlas</atlas>
+        <normalBgSprite></normalBgSprite>
+        <pressedBgSprite></pressedBgSprite>
+        <hoveredBgSprite></hoveredBgSprite>
+        <focusedBgSprite></focusedBgSprite>
+        <disabledBgSprite></disabledBgSprite>
+        <normalFgSprite>Options</normalFgSprite>
+        <pressedFgSprite>OptionsPressed</pressedFgSprite>
+        <hoveredFgSprite>OptionsHovered</hoveredFgSprite>
+    </Component>
+</UIView>    
