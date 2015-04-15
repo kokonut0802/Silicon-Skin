@@ -19,6 +19,29 @@
     </SpriteAtlas>
 
     <SpriteAtlas name="IconsAtlas">
+    
+        <Sprite name="CityVitalsButtonNormal">Sprites/ToolbarIconCV.png</Sprite>
+        <Sprite name="CityVitalsButtonHovered">Sprites/ToolbarIconCVHovered.png</Sprite>
+        <Sprite name="CityVitalsButtonPressed">Sprites/ToolbarIconCVHovered.png</Sprite>
+        <Sprite name="CityVitalsButtonFocused">Sprites/ToolbarIconCVHovered.png</Sprite>
+        <Sprite name="CityVitalsButtonDisabled">Sprites/ToolbarIconCV.png</Sprite>
+    
+    
+    	<Sprite name="ExtendedRoadUpgradeButtonTwoWay">Sprites/ExtendedRoadUpgradeButtonTwoWay.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonTwoWayHovered">Sprites/ExtendedRoadUpgradeButtonTwoWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonTwoWayPressed">Sprites/ExtendedRoadUpgradeButtonTwoWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonTwoWayFocused">Sprites/ExtendedRoadUpgradeButtonTwoWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonTwoWayDisabled">Sprites/ExtendedRoadUpgradeButtonTwoWay.png</Sprite>
+        
+        
+        <Sprite name="ExtendedRoadUpgradeButtonOneWay">Sprites/ExtendedRoadUpgradeButtonOneWay.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonOneWayHovered">Sprites/ExtendedRoadUpgradeButtonOneWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonOneWayPressed">Sprites/ExtendedRoadUpgradeButtonOneWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonOneWayFocused">Sprites/ExtendedRoadUpgradeButtonOneWayHovered.png</Sprite>
+        <Sprite name="ExtendedRoadUpgradeButtonOneWayDisabled">Sprites/ExtendedRoadUpgradeButtonOneWay.png</Sprite>
+        
+        
+        
     	<Sprite name="PauseOutline">Sprites/PauseOverlay.png</Sprite>
         <Sprite name="Options">Sprites/ToolbarIconSetting.png</Sprite>
         <Sprite name="OptionsPressed">Sprites/ToolbarIconSettingHovered.png</Sprite>
@@ -360,6 +383,8 @@
         <Color name="Blue">#00ffe9</Color>
         <Color name="Green" raw="true">117,212,40,255</Color>
         <Color name="Red" raw="true">243,104,15,255</Color>
+        <Color name="White" raw="true">#000000</Color>
+        <Color name="Black" raw="true">#FFFFFF</Color>
     </Colors>
 
 </SapphireSkin>

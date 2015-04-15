@@ -1,9 +1,24 @@
 <UIView>
  
   <!-- No pillars -->
+ 	<!-- first button -->
 	<Component name="UIButton" hash="1B0CDBFE9" optional="true">
-		<relativePosition>100.0, 940.0</relativePosition>
-		<size>80.0, 20.0</size>
+		<relativePosition>20.0, 910.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+	<Component name="UIButton" hash="1C2A3B989" optional="true">
+		<relativePosition>20.0, 900.0</relativePosition>
+		<size>80.0, 24.0</size>
 		<textColor raw="true">255, 255, 255, 255</textColor>
 		<textScale>0.7</textScale>
 		<normalBgSprite>ButtonMenu</normalBgSprite>
@@ -13,9 +28,10 @@
 		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
 	</Component>
  
+ 	<!-- second button -->
 	<Component name="UIButton" hash="180411189" optional="true">
-		<relativePosition>240.0, 940.0</relativePosition>
-		<size>80.0, 20.0</size>
+		<relativePosition>20.0, 940.0</relativePosition>
+		<size>80.0, 24.0</size>
 		<textColor raw="true">255, 255, 255, 255</textColor>
 		<textScale>0.7</textScale>
 		<normalBgSprite>ButtonMenu</normalBgSprite>
@@ -24,5 +40,103 @@
 		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
 		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
 	</Component>
+ 
+	<Component name="UIButton" hash="1F22F17E9" optional="true">
+		<relativePosition>20.0, 940.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+ 
+ <!-- Extended road upgrade -->
+	<Component name="TSBar">
+		<Component name="OptionsBar">
+			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
+				<Component name="ExtendedRoadUpgradePanel" optional="true">
+					<relativePosition>140.0, 0.0</relativePosition>
+ <padding>3,0,0,0</padding>
+					<Component name="ExtendedRoadUpgradeButtonTwoWay">
+						<size>36.0, 36.0</size>
+  <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+						<normalBgSprite></normalBgSprite>
+						<hoveredBgSprite></hoveredBgSprite>
+						<pressedBgSprite></pressedBgSprite>
+						<focusedBgSprite></focusedBgSprite>
+						<disabledBgSprite></disabledBgSprite>
+ 
+						<normalFgSprite>ExtendedRoadUpgradeButtonTwoWay</normalFgSprite>
+						<hoveredFgSprite>ExtendedRoadUpgradeButtonTwoWayHovered</hoveredFgSprite>
+						<pressedFgSprite>ExtendedRoadUpgradeButtonTwoWayPressed</pressedFgSprite>
+						<focusedFgSprite>ExtendedRoadUpgradeButtonTwoWayFocused</focusedFgSprite>
+						<disabledFgSprite>ExtendedRoadUpgradeButtonTwoWayDisabled</disabledFgSprite>
+					</Component> 
+					<Component name="ExtendedRoadUpgradeButtonOneWay">
+<size>36.0, 36.0</size>
+  <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+ 
+						<normalBgSprite></normalBgSprite>
+						<hoveredBgSprite></hoveredBgSprite>
+						<pressedBgSprite></pressedBgSprite>
+						<focusedBgSprite></focusedBgSprite>
+						<disabledBgSprite></disabledBgSprite>
+ 
+						<normalFgSprite>ExtendedRoadUpgradeButtonOneWay</normalFgSprite>
+						<hoveredFgSprite>ExtendedRoadUpgradeButtonOneWayHovered</hoveredFgSprite>
+						<pressedFgSprite>ExtendedRoadUpgradeButtonOneWayPressed</pressedFgSprite>
+						<focusedFgSprite>ExtendedRoadUpgradeButtonOneWayFocused</focusedFgSprite>
+						<disabledFgSprite>ExtendedRoadUpgradeButtonOneWayDisabled</disabledFgSprite>
+					</Component>
+				</Component>
+			</Component>
+		</Component>
+	</Component>
+
+	<!-- City vitals -->
+	
+	
+	<Component name="CityVitalsWatchButton" optional="true">
+	<atlas>IconsAtlas</atlas>
+		<size>48.0, 48.0</size>
+		<foregroundSpriteMode>Fill</foregroundSpriteMode>
+		<relativePosition>150.0, 18.0</relativePosition>
+ 
+		<normalBgSprite></normalBgSprite>
+		<hoveredBgSprite></hoveredBgSprite>
+		<pressedBgSprite></pressedBgSprite>
+		<focusedBgSprite></focusedBgSprite>
+		<disabledBgSprite></disabledBgSprite>
+ 
+		<normalFgSprite>CityVitalsButtonNormal</normalFgSprite>
+		<hoveredFgSprite>CityVitalsButtonHovered</hoveredFgSprite>
+		<pressedFgSprite>CityVitalsButtonPressed</pressedFgSprite>
+		<focusedFgSprite>CityVitalsButtonFocused</focusedFgSprite>
+		<disabledFgSprite>CityVitalsButtonDisabled</disabledFgSprite>
+		
+		<Component name="CityVitalsWatchButtonDragHandler"> 
+	<tooltip>City Vitals Watch</tooltip> 
+	</Component>
+		
+	</Component>
+	
+	
+ 
+<Component name="CityVitalsWatchPanel" optional="true">
+		<atlas>Backgrounds</atlas>
+		<backgroundSprite>SubcategoriesPanel</backgroundSprite>
+		<color>White</color>
+ 
+		<Component name=".*" name_regex="true" recursive="true">
+			<textColor optional="true">Green</textColor>
+		</Component>
+	</Component>
+	
 	
 </UIView>

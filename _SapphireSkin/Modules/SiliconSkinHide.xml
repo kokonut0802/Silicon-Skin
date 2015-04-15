@@ -1,6 +1,7 @@
 <UIView>
     <Component name="SiliconSkinHideUiButton">
         <text></text>
+        <tooltip>Hide/Show</tooltip>
         <atlas>IconsAtlas</atlas>
         <size>48.0, 48.0</size>
         <relativePosition aspect="16:9">1850.0, 1011.0</relativePosition>
