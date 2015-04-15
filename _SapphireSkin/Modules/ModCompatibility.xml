@@ -230,7 +230,9 @@
         <relativePosition aspect="16:10">1394.0, 94.0</relativePosition>
     </Component>
     
-<!-- Toggle zoning -->
+    
+    
+<!-- Toggle Zoning -->
 	<Component name="TSBar">
 		<Component name="OptionsBar">
 			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
