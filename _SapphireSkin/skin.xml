@@ -20,6 +20,13 @@
 
     <SpriteAtlas name="IconsAtlas">
     
+    <Sprite name="TTLNormal">Sprites/ToolbarIconFPC.png</Sprite>
+        <Sprite name="TTLeHovered">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="TTLPressed">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="TTLFocused">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="TTLDisabled">Sprites/ToolbarIconFPC.png</Sprite>
+    
+    
                 <Sprite name="FPSCameraConfigurationButton">Sprites/ToolbarIconFPC.png</Sprite>
         <Sprite name="FPSCameraConfigurationButtonHovered">Sprites/ToolbarIconFPCHovered.png</Sprite>
         <Sprite name="FPSCameraConfigurationButtonPressed">Sprites/ToolbarIconFPCHovered.png</Sprite>

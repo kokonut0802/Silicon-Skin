@@ -161,10 +161,12 @@
         <Component name="MainToolstrip">
             <relativePosition>400.0, -20.0</relativePosition>
             <Component name="Separator">
-                <isVisible>false</isVisible>
+                <isVisible>True</isVisible>
+                 <size>2.0, 2.0</size>
             </Component>
             <Component name="SmallSeparator">
-                <isVisible>false</isVisible>
+                <isVisible>True</isVisible>
+                <size>0.0, 1.0</size>
             </Component>
             <size>1235.0, 64.0</size>
             <padding>10,10,0,0</padding>
