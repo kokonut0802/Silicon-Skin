@@ -153,11 +153,13 @@
 		 		<atlas>IconsAtlas</atlas>
 			</Component>
 		</Component>
+		
 		<Component name="TSContainer">
+		
 			<Component name="TerraformPanel" optional="true">
 				<atlas>Backgrounds</atlas>
                 <backgroundSprite>SubcategoriesPanel</backgroundSprite>
-                <relativePosition>250.0, 5.0</relativePosition>
+                <relativePosition>500.0, 5.0</relativePosition>
  
 				<Component name="UIButton" hash="13BAE27F">
 					<normalBgSprite>TerrainDitch</normalBgSprite>
