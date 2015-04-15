@@ -132,17 +132,18 @@
 		<atlas>Backgrounds</atlas>
 		<backgroundSprite>SubcategoriesPanel</backgroundSprite>
 		<color>White</color>
+		
  
 		<Component name=".*" name_regex="true" recursive="true">
 			<textColor optional="true">Green</textColor>
+			
 		</Component>
 	</Component>
-	
 	
 	<!-- Terraform tool -->
 	<Component name="TSBar">
 		<Component name="MainToolstrip">
-			<Component name="TerrainButton" optinal="true">
+			<Component name="TerrainButton" optional="true">
 				<normalBgSprite>ToolbarIconTerrain</normalBgSprite>
 				<hoveredBgSprite>ToolbarIconTerrainHovered</hoveredBgSprite>
 				<pressedBgSprite>ToolbarIconTerrainPressed</pressedBgSprite>
@@ -151,92 +152,81 @@
 		 
 		 		<tooltip>Terrain</tooltip>
 		 		<atlas>IconsAtlas</atlas>
+		 		<size>48.0, 48.0</size>
+
+               <foregroundSpriteMode>Fill</foregroundSpriteMode>
 			</Component>
 		</Component>
 		
 		<Component name="TSContainer">
-		
 			<Component name="TerraformPanel" optional="true">
 				<atlas>Backgrounds</atlas>
+				
                 <backgroundSprite>SubcategoriesPanel</backgroundSprite>
-                <relativePosition>500.0, 5.0</relativePosition>
- 
+ <size>96.0, 96.0</size>
+                           
 				<Component name="UIButton" hash="13BAE27F">
-					<normalBgSprite>TerrainDitch</normalBgSprite>
-					<hoveredBgSprite>TerrainDitchHovered</hoveredBgSprite>
-					<pressedBgSprite>TerrainDitchPressed</pressedBgSprite>
-					<focusedBgSprite>TerrainDitchFocused</focusedBgSprite>
-					<disabledBgSprite>TerrainDitchDisabled</disabledBgSprite>
- 
 					<tooltip>Ditch</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
-		 			
 				</Component>
  
 				<Component name="UIButton" hash="54651BD9">
-					<normalBgSprite>TerrainShift</normalBgSprite>
-					<hoveredBgSprite>TerrainShiftHovered</hoveredBgSprite>
-					<pressedBgSprite>TerrainShiftPressed</pressedBgSprite>
-					<focusedBgSprite>TerrainShiftFocused</focusedBgSprite>
-					<disabledBgSprite>TerrainShiftDisabled</disabledBgSprite>
- 
 					<tooltip>Shift</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
 				</Component>
  
 				<Component name="UIButton" hash="95546E72">
-					<normalBgSprite>TerrainSoften</normalBgSprite>
-					<hoveredBgSprite>TerrainSoftenHovered</hoveredBgSprite>
-					<pressedBgSprite>TerrainSoftenPressed</pressedBgSprite>
-					<focusedBgSprite>TerrainSoftenFocused</focusedBgSprite>
-					<disabledBgSprite>TerrainSoftenDisabled</disabledBgSprite>
- 
 					<tooltip>Soften</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
 				</Component>
  
 				<Component name="UIButton" hash="D583086D">
-					<normalBgSprite>TerrainLevel</normalBgSprite>
-					<hoveredBgSprite>TerrainLevelHovered</hoveredBgSprite>
-					<pressedBgSprite>TerrainLevelPressed</pressedBgSprite>
-					<focusedBgSprite>TerrainLevelFocused</focusedBgSprite>
-					<disabledBgSprite>TerrainLevelDisabled</disabledBgSprite>
- 
 					<tooltip>Level</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
 				</Component>
  
 				<Component name="UIButton" hash="1164E01D7">
-					<normalBgSprite>TerrainSlope</normalBgSprite>
-					<hoveredBgSprite>TerrainSlopeHovered</hoveredBgSprite>
-					<pressedBgSprite>TerrainSlopePressed</pressedBgSprite>
-					<focusedBgSprite>TerrainSlopeFocused</focusedBgSprite>
-					<disabledBgSprite>TerrainSlopeDisabled</disabledBgSprite>
- 
 					<tooltip>Slope</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
 				</Component>
  
 				<Component name="UIButton" hash="157BC9460">
-					<normalBgSprite>ResourceSand</normalBgSprite>
-					<hoveredBgSprite>ResourceSandHovered</hoveredBgSprite>
-					<pressedBgSprite>ResourceSandPressed</pressedBgSprite>
-					<focusedBgSprite>ResourceSandFocused</focusedBgSprite>
-					<disabledBgSprite>ResourceSandDisabled</disabledBgSprite>
- 
 					<tooltip>Add sand</tooltip>
-					<size>96.0, 96.0</size>
-		 			<atlas>IconsAtlas</atlas>
 				</Component>
  
 			</Component>
 		</Component>
 	</Component>
+
+<!-- FPS Camera -->
+	<Component name="FPSCameraConfigurationButton">
+		<normalBgSprite></normalBgSprite>
+		<hoveredBgSprite></hoveredBgSprite>
+		<pressedBgSprite></pressedBgSprite>
+		<focusedBgSprite></focusedBgSprite>
+		<disabledBgSprite></disabledBgSprite>
+ 
+		<normalFgSprite>FPSCameraConfigurationButton</normalFgSprite>
+		<hoveredFgSprite>FPSCameraConfigurationButtonHovered</hoveredFgSprite>
+		<pressedFgSprite>FPSCameraConfigurationButtonPressed</pressedFgSprite>
+		<focusedFgSprite>FPSCameraConfigurationButtonFocused</focusedFgSprite>
+		<disabledFgSprite>FPSCameraConfigurationButtonDisabled</disabledFgSprite>
+             <relativePosition>1750.0, 18.0</relativePosition>
+<relativePosition aspect="16:10">1660.0, 74.0</relativePosition>
+		<atlas>IconsAtlas</atlas>
+		<size>48.0, 48.0</size>
+		
+	</Component>
 	
+	   <Component name="SapphireButton">
+        <atlas>IconsAtlas</atlas>
+        <size>48.0, 48.0</size>
+        <relativePosition aspect="16:9">1800.0, 18.0</relativePosition>
+        <relativePosition aspect="16:10">1610.0, 74.0</relativePosition>
+        <isVisible>true</isVisible>
+        <normalFgSprite>SapphireNormal</normalFgSprite>
+        <hoveredFgSprite>SapphireHovered</hoveredFgSprite>
+        <pressedFgSprite>SapphirePressed</pressedFgSprite>
+    </Component>
+ 
+    <Component name="SapphireSkinManager">
+        <relativePosition>1584.0, 94.0</relativePosition>
+        <relativePosition aspect="16:10">1394.0, 94.0</relativePosition>
+    </Component>
 	
 </UIView>

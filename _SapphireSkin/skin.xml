@@ -20,6 +20,21 @@
 
     <SpriteAtlas name="IconsAtlas">
     
+                <Sprite name="FPSCameraConfigurationButton">Sprites/ToolbarIconFPC.png</Sprite>
+        <Sprite name="FPSCameraConfigurationButtonHovered">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="FPSCameraConfigurationButtonPressed">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="FPSCameraConfigurationButtonFocused">Sprites/ToolbarIconFPCHovered.png</Sprite>
+        <Sprite name="FPSCameraConfigurationButtonDisabled">Sprites/ToolbarIconFPC.png</Sprite>
+    
+    
+            <Sprite name="ToolbarIconTerrain">Sprites/ToolbarIconTF.png</Sprite>
+        <Sprite name="ToolbarIconTerrainHovered">Sprites/ToolbarIconTFHovered.png</Sprite>
+        <Sprite name="ToolbarIconTerrainPressed">Sprites/ToolbarIconTFHovered.png</Sprite>
+        <Sprite name="ToolbarIconTerrainFocused">Sprites/ToolbarIconTFHovered.png</Sprite>
+        <Sprite name="ToolbarIconTerrainDisabled">Sprites/ToolbarIconTF.png</Sprite>
+    
+    
+    
         <Sprite name="CityVitalsButtonNormal">Sprites/ToolbarIconCV.png</Sprite>
         <Sprite name="CityVitalsButtonHovered">Sprites/ToolbarIconCVHovered.png</Sprite>
         <Sprite name="CityVitalsButtonPressed">Sprites/ToolbarIconCVHovered.png</Sprite>
