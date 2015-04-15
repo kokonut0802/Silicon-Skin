@@ -98,7 +98,7 @@
 			</Component>
 		</Component>
 	</Component>
-
+ 
 	<!-- City vitals -->
 	
 	
@@ -153,7 +153,7 @@
 		 		<tooltip>Terrain</tooltip>
 		 		<atlas>IconsAtlas</atlas>
 		 		<size>48.0, 48.0</size>
-
+ 
                <foregroundSpriteMode>Fill</foregroundSpriteMode>
 			</Component>
 		</Component>
@@ -192,9 +192,9 @@
 			</Component>
 		</Component>
 	</Component>
-
+ 
 <!-- FPS Camera -->
-	<Component name="FPSCameraConfigurationButton">
+	<Component name="FPSCameraConfigurationButton" optional="true">
 		<normalBgSprite></normalBgSprite>
 		<hoveredBgSprite></hoveredBgSprite>
 		<pressedBgSprite></pressedBgSprite>
@@ -213,6 +213,7 @@
 		
 	</Component>
 	
+<!-- Sapphire -->	
 	   <Component name="SapphireButton">
         <atlas>IconsAtlas</atlas>
         <size>48.0, 48.0</size>
@@ -228,5 +229,17 @@
         <relativePosition>1584.0, 94.0</relativePosition>
         <relativePosition aspect="16:10">1394.0, 94.0</relativePosition>
     </Component>
-	
+    
+<!-- Toggle zoning -->
+	<Component name="TSBar">
+		<Component name="OptionsBar">
+			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
+				<Component name="ZoningToggle" optional="true">
+					<relativePosition>-20.0, 0.0</relativePosition>
+					<size>22.0, 22.0</size>
+				</Component>
+			</Component>
+		</Component>
+	</Component>    
+    
 </UIView>
