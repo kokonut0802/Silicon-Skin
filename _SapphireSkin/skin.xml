@@ -119,6 +119,32 @@
         <Sprite name="SnappingHovered">Sprites/ToolbarIconSnapHovered.png</Sprite>
         <Sprite name="SnappingPressed">Sprites/ToolbarIconSnapHovered.png</Sprite>
         <Sprite name="SnappingFocused">Sprites/ToolbarIconSnapHovered.png</Sprite>
+        
+                <Sprite name="TracksOptionStraight">Sprites/ToolbarIconStra.png</Sprite>
+        <Sprite name="TracksOptionStraightHovered">Sprites/ToolbarIconStraHovered.png</Sprite>
+        <Sprite name="TracksOptionStraightFocused">Sprites/ToolbarIconStraHovered.png</Sprite>
+        <Sprite name="TracksOptionStraightDisabled">Sprites/ToolbarIconStraHovered.png</Sprite>
+        <Sprite name="TracksOptionStraightPressed">Sprites/ToolbarIconStra.png</Sprite>
+        <Sprite name="TracksOptionCurved">Sprites/ToolbarIconCurve.png</Sprite>
+        <Sprite name="TracksOptionCurvedHovered">Sprites/ToolbarIconCurveHovered.png</Sprite>
+        <Sprite name="TracksOptionCurvedFocused">Sprites/ToolbarIconCurveHovered.png</Sprite>
+        <Sprite name="TracksOptionCurvedPressed">Sprites/ToolbarIconCurveHovered.png</Sprite>
+        <Sprite name="TracksOptionCurvedDisabled">Sprites/ToolbarIconCurve.png</Sprite>
+        <Sprite name="TracksOptionFreeform">Sprites/ToolbarIconFform.png</Sprite>
+        <Sprite name="TracksOptionFreeformHovered">Sprites/ToolbarIconFformHovered.png</Sprite>
+        <Sprite name="TracksOptionFreeformFocused">Sprites/ToolbarIconFformHovered.png</Sprite>
+        <Sprite name="TracksOptionFreeformDisabled">Sprites/ToolbarIconFform.png</Sprite>
+        <Sprite name="TracksOptionFreeformPressed">Sprites/ToolbarIconFformHovered.png</Sprite>
+        <Sprite name="TracksOptionUpgrade">Sprites/ToolbarIconUpgrade.png</Sprite>
+        <Sprite name="TracksOptionUpgradeHovered">Sprites/ToolbarIconUpgradeHovered.png</Sprite>
+        <Sprite name="TracksOptionUpgradeFocused">Sprites/ToolbarIconUpgradeHovered.png</Sprite>
+        <Sprite name="TracksOptionUpgradeDisabled">Sprites/ToolbarIconUpgradeHovered.png</Sprite>
+        <Sprite name="TracksOptionUpgradePressed">Sprites/ToolbarIconUpgrade.png</Sprite>
+        
+        
+        
+        
+        
         <Sprite name="RoadOptionStraight">Sprites/ToolbarIconStra.png</Sprite>
         <Sprite name="RoadOptionStraightHovered">Sprites/ToolbarIconStraHovered.png</Sprite>
         <Sprite name="RoadOptionStraightFocused">Sprites/ToolbarIconStraHovered.png</Sprite>
