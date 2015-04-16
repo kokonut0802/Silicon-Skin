@@ -1,7 +1,7 @@
 <SapphireSkin name="Silicon" author="kokonut">
 
     <Module class="InGame">Modules/Misc.xml</Module>
-    <Module class="InGame">Modules/TSBar.xml</Module>
+    <Module class="InGame">Modules/TSbar.xml</Module>
     <Module class="InGame">Modules/InfoPanel.xml</Module>
     <Module class="InGame">Modules/InfoMenu.xml</Module>
     <Module class="InGame">Modules/OptionsBar.xml</Module>

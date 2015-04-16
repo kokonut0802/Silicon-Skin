@@ -36,25 +36,27 @@
             <relativePosition>0.0, -149.0</relativePosition>
             <Component name=".*" name_regex="true">
                 <Component name="GTSContainer" optional="true">
+                 
                     <atlas>Backgrounds</atlas>
                     <backgroundSprite>SubcategoriesPanel</backgroundSprite>
+                    
                     <relativePosition>0.0, 0.0</relativePosition>
                     <Component name=".*" name_regex="true" optional="true" recursive="true">
                         <Component name="ScrollablePanel" optional="true">
-                            <size sticky="true" aspect="16:9">1700.0, 109.0</size>
-                            <size sticky="true" aspect="16:10">1508.0, 109.0</size>
-                            <relativePosition>100.0, 5.0</relativePosition>
+                            <size sticky="true" aspect="16:9">1500.0, 109.0</size>
+                            <size sticky="true" aspect="16:10">1308.0, 109.0</size>
+                            <relativePosition>200.0, 5.0</relativePosition>
                             <Component name=".*" name_regex="true" optional="true">
                                 <size>96.0, 96.0</size>
                                 <foregroundSpriteMode>Scale</foregroundSpriteMode>
-                            </Component>
+                            </Component>ß
                         </Component>
                         <Component name="Scrollbar" optional="true">
                             <Component name="ArrowLeft">
                                 <atlas>IconsAtlas</atlas>
                                 <size>18.0, 18.0</size>
                                 <anchor>Bottom|Left</anchor>
-                                <relativePosition sticky="true">10.0, 50.0</relativePosition>
+                                <relativePosition sticky="true">160.0, 50.0</relativePosition>
                                 <normalBgSprite>ArrowLeft</normalBgSprite>
                                 <hoveredBgSprite>ArrowLeftHovered</hoveredBgSprite>
                                 <pressedBgSprite>ArrowLeftPressed</pressedBgSprite>
@@ -65,8 +67,8 @@
                                 <atlas>IconsAtlas</atlas>
                                 <size>18.0, 18.0</size>
                                 <anchor>Bottom|Right</anchor>
-                                <relativePosition sticky="true" aspect="16:9">1860.0, 50.0</relativePosition>
-                                <relativePosition sticky="true" aspect="16:10">1668.0, 50.0</relativePosition>
+                                <relativePosition sticky="true" aspect="16:9">1750.0, 50.0</relativePosition>
+                                <relativePosition sticky="true" aspect="16:10">1558.0, 50.0</relativePosition>
                                 <normalBgSprite>ArrowRight</normalBgSprite>
                                 <hoveredBgSprite>ArrowRightHovered</hoveredBgSprite>
                                 <pressedBgSprite>ArrowRightPressed</pressedBgSprite>
@@ -76,7 +78,7 @@
                     </Component>
                 </Component>
                 <Component name="GroupToolstrip" optional="true">
-                    <relativePosition>100.0, -28.0</relativePosition>
+                    <relativePosition>200.0, -28.0</relativePosition>
                 </Component>
             </Component>
         </Component>
