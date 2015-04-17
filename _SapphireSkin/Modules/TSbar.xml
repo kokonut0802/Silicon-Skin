@@ -163,15 +163,15 @@
         <Component name="MainToolstrip">
             <relativePosition>400.0, -20.0</relativePosition>
             <Component name="Separator">
-                <isVisible>True</isVisible>
+                <isVisible>true</isVisible>
                  <size>2.0, 2.0</size>
             </Component>
             <Component name="SmallSeparator">
-                <isVisible>True</isVisible>
+                <isVisible>true</isVisible>
                 <size>0.0, 1.0</size>
             </Component>
             <size>1235.0, 64.0</size>
-            <padding>10,10,0,0</padding>
+            <padding>8,8,0,0</padding>
             <Component name="Roads">
                 <size>48.0, 48.0</size>
                 <atlas>IconsAtlas</atlas>

@@ -3,7 +3,23 @@
   <!-- No pillars -->
  	<!-- first button -->
 	<Component name="UIButton" hash="1B0CDBFE9" optional="true">
-		<relativePosition>20.0, 910.0</relativePosition>
+		<relativePosition>20.0, 900.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+
+	<Component name="UIButton" hash="1C2A3B989" optional="true">
+	
+		<relativePosition aspect="16:10">20.0, 900.0</relativePosition>
+		
 		<size>80.0, 24.0</size>
 		<textColor raw="true">255, 255, 255, 255</textColor>
 		<textScale>0.7</textScale>
@@ -16,24 +32,14 @@
 		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
 	</Component>
  
-	<Component name="UIButton" hash="1C2A3B989" optional="true">
-		<relativePosition>20.0, 900.0</relativePosition>
-		<size>80.0, 24.0</size>
-		<textColor raw="true">255, 255, 255, 255</textColor>
-		<textScale>0.7</textScale>
-		<normalBgSprite>ButtonMenu</normalBgSprite>
-		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
-		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
-		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
-		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
-	</Component>
- 
  	<!-- second button -->
 	<Component name="UIButton" hash="180411189" optional="true">
-		<relativePosition>20.0, 940.0</relativePosition>
+		<relativePosition>20.0, 930.0</relativePosition>
 		<size>80.0, 24.0</size>
 		<textColor raw="true">255, 255, 255, 255</textColor>
 		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
 		<normalBgSprite>ButtonMenu</normalBgSprite>
 		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
 		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
@@ -42,10 +48,12 @@
 	</Component>
  
 	<Component name="UIButton" hash="1F22F17E9" optional="true">
-		<relativePosition>20.0, 940.0</relativePosition>
+		<relativePosition aspect="16:10">20.0, 930.0</relativePosition>
 		<size>80.0, 24.0</size>
 		<textColor raw="true">255, 255, 255, 255</textColor>
 		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
 		<normalBgSprite>ButtonMenu</normalBgSprite>
 		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
 		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
@@ -207,7 +215,7 @@
 		<focusedFgSprite>FPSCameraConfigurationButtonFocused</focusedFgSprite>
 		<disabledFgSprite>FPSCameraConfigurationButtonDisabled</disabledFgSprite>
              <relativePosition>1750.0, 18.0</relativePosition>
-<relativePosition aspect="16:10">1660.0, 74.0</relativePosition>
+<relativePosition aspect="16:10">1560.0, 18.0</relativePosition>
 		<atlas>IconsAtlas</atlas>
 		<size>48.0, 48.0</size>
 		
@@ -218,7 +226,7 @@
         <atlas>IconsAtlas</atlas>
         <size>48.0, 48.0</size>
         <relativePosition aspect="16:9">1800.0, 18.0</relativePosition>
-        <relativePosition aspect="16:10">1610.0, 74.0</relativePosition>
+        <relativePosition aspect="16:10">1610.0, 18.0</relativePosition>
         <isVisible>true</isVisible>
         <normalFgSprite>SapphireNormal</normalFgSprite>
         <hoveredFgSprite>SapphireHovered</hoveredFgSprite>
@@ -230,9 +238,7 @@
         <relativePosition aspect="16:10">1394.0, 94.0</relativePosition>
     </Component>
     
-    
-    
-<!-- Toggle Zoning -->
+    <!-- Toggle Zoning -->
 	<Component name="TSBar">
 		<Component name="OptionsBar">
 			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">

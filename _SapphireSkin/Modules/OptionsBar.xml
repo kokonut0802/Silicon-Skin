@@ -6,11 +6,9 @@
             <size>250.0 , 22.0</size>
             <zOrder>100</zOrder>
             <relativePosition>350.0, 35.0</relativePosition>
-           
-           
             <Component name="ZoningOptionPanel">
-                <padding>3,0,0,0</padding>
-                <relativePosition>100.0, 0.0</relativePosition>
+                <padding>5,0,0,0</padding>
+                <relativePosition>90.0, 0.0</relativePosition>
                 <Component name="Fill">
                     <atlas>IconsAtlas</atlas>
                     <size>22.0,22.0</size>
@@ -73,8 +71,8 @@
                 </Component>
             </Component>
             <Component name="DistrictOptionPanel">
-                <padding>3,0,0,0</padding>
-                <relativePosition>181.0, 0.0</relativePosition>
+                <padding>5,0,0,0</padding>
+                <relativePosition>165.0, 0.0</relativePosition>
                 <Component name="BrushSmall">
                     <atlas>IconsAtlas</atlas>
                     <size>22.0,22.0</size>
@@ -121,8 +119,6 @@
                     <pressedFgSprite>DistrictOptionBrushLargePressed</pressedFgSprite>
                 </Component>
             </Component>
-            
-            
             <Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
                 <relativePosition>0.0, 0.0</relativePosition>
                 <Component name="SnappingToggle">
@@ -220,93 +216,6 @@
                         <pressedFgSprite>RoadOptionUpgradePressed</pressedFgSprite>
                     </Component>
                 </Component>
-                
-                <Component name="(TracksOptionPanel|TracksOptionPanel\(PublicTransportPanel\))" name_regex="true" optional="true">
-                <relativePosition>0.0, 0.0</relativePosition>
-                <Component name="SnappingToggle">
-                    <atlas>IconsAtlas</atlas>
-                    <size>22.0 , 22.0</size>
-                    <foregroundSpriteMode>Fill</foregroundSpriteMode>
-                    <SpriteState index="0" type="background">
-                        <normal></normal>
-                        <hovered></hovered>
-                        <pressed></pressed>
-                        <focused></focused>
-                        <disabled></disabled>
-                    </SpriteState>
-                    <SpriteState index="0" type="foreground">
-                        <normal>Snapping</normal>
-                        <hovered>SnappingHovered</hovered>
-                        <pressed>SnappingPressed</pressed>
-                        <focused>Snapping</focused>
-                    </SpriteState>
-                    <SpriteState index="1" type="background">
-                        <normal></normal>
-                        <hovered></hovered>
-                        <pressed></pressed>
-                        <focused></focused>
-                        <disabled></disabled>
-                    </SpriteState>
-                    <SpriteState index="1" type="foreground">
-                        <normal>SnappingFocused</normal>
-                        <hovered>SnappingHovered</hovered>
-                        <pressed>SnappingPressed</pressed>
-                        <focused>SnappingFocused</focused>
-                    </SpriteState>
-                </Component>
-                <Component name="ToolMode">
-                    <padding>3,0,0,0</padding>
-                    <relativePosition>40.0, 0.0</relativePosition>
-                    <Component name="Straight">
-                        <atlas>IconsAtlas</atlas>
-                        <size>22.0 , 22.0</size>
-                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
-                        <normalBgSprite></normalBgSprite>
-                        <hoveredBgSprite></hoveredBgSprite>
-                        <focusedBgSprite></focusedBgSprite>
-                        <disabledBgSprite></disabledBgSprite>
-                        <pressedBgSprite></pressedBgSprite>
-                        <normalFgSprite>TracksOptionStraight</normalFgSprite>
-                        <hoveredFgSprite>TracksOptionStraightHovered</hoveredFgSprite>
-                        <focusedFgSprite>TracksOptionStraightFocused</focusedFgSprite>
-                        <disabledFgSprite>TracksOptionStraightDisabled</disabledFgSprite>
-                        <pressedFgSprite>TracksOptionStraightPressed</pressedFgSprite>
-                    </Component>
-                    <Component name="Curved">
-                        <atlas>IconsAtlas</atlas>
-                        <size>22.0 , 22.0</size>
-                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
-                        <normalBgSprite></normalBgSprite>
-                        <hoveredBgSprite></hoveredBgSprite>
-                        <focusedBgSprite></focusedBgSprite>
-                        <disabledBgSprite></disabledBgSprite>
-                        <pressedBgSprite></pressedBgSprite>
-                        <normalFgSprite>TracksOptionCurved</normalFgSprite>
-                        <hoveredFgSprite>TracksOptionCurvedHovered</hoveredFgSprite>
-                        <focusedFgSprite>TracksOptionCurvedFocused</focusedFgSprite>
-                        <disabledFgSprite>TracksOptionCurvedDisabled</disabledFgSprite>
-                        <pressedFgSprite>TracksOptionCurvedPressed</pressedFgSprite>
-                    </Component>
-                    <Component name="Freeform">
-                        <atlas>IconsAtlas</atlas>
-                        <size>22.0 , 22.0</size>
-                        <foregroundSpriteMode>Fill</foregroundSpriteMode>
-                        <normalBgSprite></normalBgSprite>
-                        <hoveredBgSprite></hoveredBgSprite>
-                        <focusedBgSprite></focusedBgSprite>
-                        <disabledBgSprite></disabledBgSprite>
-                        <pressedBgSprite></pressedBgSprite>
-                        <normalFgSprite>TracksOptionFreeform</normalFgSprite>
-                        <hoveredFgSprite>TracksOptionFreeformHovered</hoveredFgSprite>
-                        <focusedFgSprite>TracksOptionFreeformFocused</focusedFgSprite>
-                        <disabledFgSprite>TracksOptionFreeformDisabled</disabledFgSprite>
-                        <pressedFgSprite>TracksOptionFreeformPressed</pressedFgSprite>
-                    </Component>
-                </Component>
-                
-                
-                </Component>
-                
             </Component>
         </Component>
     </Component>
